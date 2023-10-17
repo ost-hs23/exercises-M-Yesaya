@@ -1,7 +1,13 @@
 ---
 title: "Hello, Penguins!"
-format: html
+author: "Mabvuto Yesaya"
+date: 2023-17-10
+format: pdf
 editor: visual
+execute: 
+  echo: false
+editor_options: 
+  chunk_output_type: console
 ---
 
 ## Data
@@ -36,7 +42,9 @@ ggplot(data = penguins,
   geom_point() +
   scale_color_colorblind() +
   labs(x = "Bill length (mm)", y = "Bill depth (mm)") +
-  theme_minimal()
+  theme_bw()+
+  facet_wrap(~island)
+
 ```
 
 ## Penguins

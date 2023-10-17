@@ -1,0 +1,24 @@
+---
+title: "My first document"
+author: "Mabvuto Yesaya"
+format:
+  html:
+    theme: custom.scss
+editor: visual
+---
+
+## Task that gave me joy
+
+-   Trying the different outputs when rendering
+
+-   Facet wrap
+
+## Task that was challenging
+
+-   It was challenging to place a date that would update automatically
+
+## What I want to learn
+
+-   Develop a personal website
+
+-   Data package

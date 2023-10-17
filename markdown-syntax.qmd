@@ -1,12 +1,24 @@
 ---
+title: "Markdown"
+author: "Mabvuto Yesaya"
 format: html
 editor: source
+editor_options: 
+  chunk_output_type: console
 ---
 
 1.  Add a title and author to the YAML header. Add a table of contents as well.
 
 2.  Add two major sections with level two headers. Add a subsection to one of your major sections.
 
-3.  Add an image link to a web image you have chosen.
+## Section 1
 
+### subsection 1
+
+## Section 2
+
+### subsection 2
+
+3.  Add an image link to a web image you have chosen.
+![trial](https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg)
 4.  Use any markdown syntax that you can recall from the slides or refresh your memory from <https://quarto.org/docs/authoring/markdown-basics.html>.

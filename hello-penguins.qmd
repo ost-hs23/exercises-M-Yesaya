@@ -1,8 +1,7 @@
 ---
-title: "Hello, Penguins!"
-author: "Mabvuto Yesaya"
-date: 2023-17-10
-format: pdf
+
+title: "Tables and figures"
+format: html
 editor: visual
 execute: 
   echo: false

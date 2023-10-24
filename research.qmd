@@ -1,0 +1,12 @@
+---
+title: "Research"
+author: "Mabvuto Yesaya"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+## Open solid waste burning
+
+In Blantyre, Malawi, Solid waste burning has become a necessary waste management strategy to reduce waste volume in areas with limited solid waste collection (Nagpure) Waste burning is a source of particulate matter emissions that cause respiratory infection (Ramadan,pansuk). However, researchers have not studied waste burning at either the city or intra-city scale in Malawi. There is an emerging literature addressing onsite waste disposal methods in Malawian cities, including Lilongwe (Kalonde et al., 2023; Ndala & Ndala, 2022). However, disposal methods in other Malawian cities, including Blantyre, Mzuzu and Zomba are under-studied.  Studying Open waste burning will generate data that can enable the local authorities to design location-specific interventions that would address the issue.

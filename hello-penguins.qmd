@@ -1,13 +1,6 @@
----
+------------------------------------------------------------------------
 
-title: "Tables and figures"
-format: html
-editor: visual
-execute: 
-  echo: false
-editor_options: 
-  chunk_output_type: console
----
+title: "Tables and figures" format: html editor: visual execute: echo: false editor_options: chunk_output_type: console ---
 
 ## Data
 

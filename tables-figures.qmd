@@ -2,6 +2,8 @@
 title: "Tables and figures"
 format: html
 editor: visual
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r}
@@ -15,12 +17,43 @@ library(palmerpenguins)
 
 1.  Create a 2 row x 2 column table, populate with a column for restaurant + column for cuisine. Then, cross reference it from text.
 
+    For details about restaurants and their favourite dishes, please refer to @tbl-restaurants
+
+    ```{r}
+    #| echo: false
+    #| label: tbl-restaurants
+    #| tbl-cap: "Restaurants and their favourite cuisine."
+
+
+    library(knitr)
+     restaurant_info <- tibble(restaurant = c("Chipotle", "Subway"),
+                                cuisine = c("Mexican", "Sandwiches"))
+     
+     
+      restaurant_info %>% 
+        knitr::kable(digits = 0)
+    ```
+
 2.  Include the Quarto logo from the `images/` folder as a figure. Add a caption, id, and cross-reference to the figure.
 
-3.  **Stretch goal:** Add a caption, label, and cross-reference to the figure generated from the code below.
+    1.  check @fig-quarto
+  
+
+ see @quarto-logo for the following. ![quarto-logo](images/quarto-logo.png){#fig-quarto-logo}
+  
+```
+
+1.  
+
+2.  **Stretch goal:** Add a caption, label, and cross-reference to the figure generated from the code below.
+
+Penguins have been documented and you can look at @fig-penguins
 
 ```{r}
 #| warning: false
+#| echo: false
+#| label: fig-penguins
+#| fig-cap: "Waste generation by income category."
 #| fig-width: 5
 #| fig-asp: 0.618
 

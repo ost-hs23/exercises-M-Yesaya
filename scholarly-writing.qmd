@@ -1,10 +1,10 @@
 ---
-title: "An example scholarly article"
-date: 2023-10-17
+title: "Extent of waste burning"
+date: 2023-10-24
 author:
-  - name: First Last
-    orcid: 0000-0003-2196-5015
-    email: me@web.org
+  - name: Mabvuto Yesaya
+    orcid: 0000-0003-3234-9699
+    email: yesayamabvuto@gmail.com
     affiliation: 
       - name: ETH Zurich
         url: https://ethz.ch/de.html
@@ -21,22 +21,20 @@ csl: apa.csl
 
 ## Scholarly writing
 
-Scholarly articles require much more detail in their front matter than simply a title and an author. Quarto provides a rich set of YAML metadata keys to describe these details
-
-## Front Matter
+In Blantyre, Malawi, Solid waste burning has become a necessary waste management strategy to reduce waste volume in areas with limited solid waste collection (Nagpure). Waste burning is a source of particulate matter emissions that cause respiratory infection (Ramadan). However, researchers have not studied waste burning at either the city or intra-city scale in Malawi. There is an emerging literature addressing onsite waste disposal methods in Malawian cities, including Lilongwe (Kalonde et al., 2023; Ndala & Ndala, 2022). However, disposal methods in other Malawian cities, including Blantyre, Mzuzu and Zomba are under-studied. Studying Open waste burning will generate data that can enable the local authorities to design location-specific interventions that would address the issue. \## Front Matter
 
 -   Replace the values under author for name, orcid, email, and affiliation with your own
 -   Render the document to see the changes
 
 ## Citations
 
-1.  Add the citation key for the paper "'My flight arrives at 5 am, can you pick me up?': The gatekeeping burden of the african academic" as an in-text reference to the sentence below
+1.  Add the citation key for the paper "'My flight arrives at 5 am, can you pick me up?': The gatekeeping burden of the african academic" as an in-text reference to the sentence below[@kalina2023rich]
 
-In \_\_\_, the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.
+In [@tilley2021my], the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.
 
 2.  Add the citation key for the paper "'The rich will always be able to dispose of their waste': a view from the frontlines of municipal failure in Makhanda, South Africa" as a citation at the end of the sentence below.
 
-Inequality underpins waste management systems, structuring who can or cannot access services \_\_\_.
+Inequality underpins waste management systems, structuring who can or cannot access services @kalina2023rich .
 
 ## Bibliographies
 

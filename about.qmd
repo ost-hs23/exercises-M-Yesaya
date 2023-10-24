@@ -1,0 +1,33 @@
+---
+title: "Mabvuto Yesaya"
+about:
+  template: trestles
+  image: id.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+---
+
+## About
+
+An Environmental Health professional and data enthusiast with tech insights who enjoys building open data science principles and pipelines. I found a passion for data science, and I code in SQL and R and create interactive shiny dashboards to help solve complex WASH challenges.
+
+## Education
+
+Malawi Polytechnic, Blantyre \| Malawi
+
+MSc in Environmental Health \| Oct 221 - Feb 2024
+
+Malawi Polytechnic, Blantyre \| Malawi
+
+BSc in Environmental Health \| Feb 2012 - Feb 2028
+
+## Experience
+
+Wengo Analytics \| Head Data Scientist \| April 2018 - present
+
+GeoScynce \| Chief Analyst \| Spet 2012 - April 2018
